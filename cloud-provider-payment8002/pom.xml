@@ -9,14 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-provider-payment8001</artifactId>
-
+    <artifactId>cloud-provider-payment8002</artifactId>
     <dependencies>
         <!-- 包含了sleuth zipkin 数据链路追踪-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-zipkin</artifactId>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.cloud</groupId>-->
+        <!--            <artifactId>spring-cloud-starter-zipkin</artifactId>-->
+        <!--        </dependency>-->
         <dependency><!-- 引用自己定义的api通用包，可以使用Payment支付Entity -->
             <groupId>com.atom.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
@@ -73,4 +72,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>
