@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: dev
+#    active: TEST #表示侧式环境
+#    active: info #表示侧式环境
